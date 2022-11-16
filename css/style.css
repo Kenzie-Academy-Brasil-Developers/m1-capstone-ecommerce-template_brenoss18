@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2? family= Inter:wght@100;200;300;400;500;600;700 & family= Roboto:ital,wght@0,100; 0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500 & display=swap');
+
+
+body {
+    width: 100%;
+    
+    font-family: 'Inter', sans-serif;
+}
+.containerMax {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header{
+    margin-top: -30px;
+}
+.conteinerPrincipal {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: black;
+    
+}
+.nav {
+    box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.322);
+    height: 120px;
+    width: 100%;
+}
+.logo {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+img {
+    max-width: 150px;
+    max-height: 150px;
+    width: 100%;
+}
+.navProdutos {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    padding: 20px;
+}
+.bNav {
+    color: rgb(92, 92, 92);
+}
+.bNav:hover {
+    color: rgb(151, 0, 0);
+    
+}
+.vitrine {
+    display: flex;
+    max-width: 790px;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+    margin-top: 15px;
+    
+}
+.card {
+    border: 1px solid transparent;
+    border-radius: 10px;
+    max-width: 220px;
+    background-color: rgb(248, 247, 247);
+    padding: 14px;
+    max-height: 398px;
+}
+.card:hover {
+    border: 1px solid rgb(151, 0, 0);
+}
+.imgProdutos {
+    width: 100%;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F5;
+}
+.categoria {
+    background-color: rgb(151, 0, 0) ;
+    width: 80px;
+    text-align: center;
+    padding: 4px;
+    border-radius: 8px;
+    color: white;
+    margin-top: 30px;
+    font-size: 12px;
+}
+.titulo {
+    font-size: 20px;
+}
+.descricao {
+    font-size: 16px;
+}
+.valor {
+    color: rgb(49, 35, 0) ;
+}
+.buttonAddCarrinho {
+    border: none;
+    background-color: #ececec;
+    padding: 4px;
+}
+.buttonAddCarrinho:hover{
+    color: rgb(226, 5, 5);
+}
+.menuLateral {
+    margin-top: 15px;
+    float: right;
+    flex-direction: column;
+    max-width: 300px;
+    justify-content: end;
+    align-items: flex-end;
+    
+}
+.pesquisa {
+    border: none;
+    padding: 10px;
+    background-color: #ececec;
+}
+.butaoPesquisar {
+    background-color: rgb(141, 141, 141);
+    color: #ffff;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.butaoPesquisar:hover {
+    background-color: rgb(199, 199, 199);
+    color: #ffff;
+}
+.carrinhoDeCompras{
+    max-width: 300px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+    align-items: flex-end;
+    
+}
+.pCarrinho {
+    width: 253px;
+    background-color: rgb(141, 141, 141) ;
+    color: #ffff;
+    padding: 10px;
+}
+.itensCarrinho {
+    width: 253px;
+    background-color: rgb(241, 241, 241) ;
+    color: #ffff;
+    height: 253px;
+    padding: 10px;
+    margin-top: -16px;
+    max-height: 273px;
+    overflow-y: auto; 
+}
+
+.ProdutoNoCarrinho {
+    display: flex;
+    max-width: 270px;
+    list-style: none;
+    gap: 30px;
+    height: 120px;
+    border-bottom: 1px solid rgb(97, 97, 97);
+    margin-bottom: 6px;
+    justify-content: center;
+    padding-bottom: 20px;
+    
+}
+.imagemNoCarrinho {
+    width: 110px;
+    height: 110px;
+}
+.nomeitenCarrinho {
+    color: black;
+}
+.precoItenCarrinho {
+    color: rgb(2, 0, 92);
+}
+.removerIten{
+    border: 1px solid rgb(167, 167, 167);
+    height: 30px;
+    border-radius: 4px;
+    color: rgb(133, 0, 0);
+    padding: 5px;
+}
+.removerIten:hover {
+    background-color: rgb(165, 0, 0);
+    color: #ffff;
+}
+
+.finalizarCompra {
+    width: 273px;
+    background-color: rgb(53, 53, 53);
+    color: #ffff;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    
+}
+.finalizarCompra:hover{
+    background-color: black;
+}
+.quantidade {
+    display: flex;
+    justify-content: space-around;
+}
+.totalValor {
+    display: flex;
+    justify-content: space-around;
+}
+.buttonFinalizarCompra {
+    color: #ffff;
+    background-color: rgb(28, 196, 140);
+    height: 40px;
+    width: 273px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    float: right;
+    transition: 1s;
+}
+.buttonFinalizarCompra:hover {
+    background-color: rgb(19, 224, 156);
+}

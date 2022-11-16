@@ -1,0 +1,42 @@
+.formulario {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 20px;
+    margin-top: 50px;
+    background-color: rgb(54, 54, 54);
+    color: #ffff;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 50px;
+    
+}
+.fCompra {
+    text-align: center;
+    margin-bottom: 30px;
+}
+label {
+    margin-bottom: 20px;
+}
+.inputForm {
+    margin-bottom: 10px;
+}
+select {
+    margin-bottom: 20px;
+}
+.buttonFinal {
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    margin: auto;
+    background-color: rgb(26, 182, 117);
+    color: #ffff;
+    border: none;
+    border-radius: 4px;
+
+}
+.buttonFinal:hover {
+    background-color: rgb(28, 196, 159)
+}
