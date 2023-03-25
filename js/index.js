@@ -103,8 +103,6 @@ for (let i = 0; i < buttonAddCar.length; i ++){
             pTotalValor.innerText = soma -= data[i].value
         })
         
-        
-        
 
         let selectUl = document.querySelector('.itensCarrinho')
         selectUl.appendChild(criarLi)
